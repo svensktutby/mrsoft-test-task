@@ -1,0 +1,24 @@
+@import "src/components/common/styles/base/variables";
+
+.header {
+  position: relative;
+
+  background-color: $theme-color;
+}
+
+.container {
+  composes: container from "../common/styles/container.module.scss";
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.title {
+  margin: 1rem 0;
+
+  font-size: 1.5rem;
+  text-align: center;
+  color: $white;
+}

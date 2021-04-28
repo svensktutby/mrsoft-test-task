@@ -1,0 +1,24 @@
+@import "src/components/common/styles/base/variables";
+
+.form {
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.inputsWrapper,
+.buttonsWrapper {
+  padding: 10px 0;
+}
+
+.inputsWrapper {
+  & input {
+    margin-bottom: 20px;
+  }
+}
+
+.buttonsWrapper {
+  & button {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
