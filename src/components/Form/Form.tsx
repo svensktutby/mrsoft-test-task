@@ -27,7 +27,7 @@ export const Form: FC = () => {
 
   const setResultsByString = (value: string, register: boolean) => {
     let string = value.trim();
-    if (register) string = string.toLowerCase();
+    if (!register) string = string.toLowerCase();
     if (string) dispatch(fetchResultsByStringAsync(string, register));
   };
 
@@ -42,7 +42,7 @@ export const Form: FC = () => {
             onChangeText={setValue}
           />
           <Checkbox checked={register} onChangeChecked={setRegister}>
-            Не учитывать регистр
+            Учитывать регистр
           </Checkbox>
         </div>
 

@@ -38,7 +38,7 @@ export const reducer = (
       return {
         ...state,
         results: action.payload.results.filter((i) => {
-          const item = action.payload.register ? i.toLowerCase() : i;
+          const item = !action.payload.register ? i.toLowerCase() : i;
           return item.includes(action.payload.string);
         }),
       };

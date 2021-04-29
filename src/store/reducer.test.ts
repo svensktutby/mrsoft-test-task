@@ -69,7 +69,7 @@ describe('reducer', () => {
       'NEWFOUNDLAND',
     ];
 
-    const action = actions.setResultsByString(results, 'aff', true);
+    const action = actions.setResultsByString(results, 'aff', false);
 
     const newState = reducer(state, action);
 

@@ -4,6 +4,6 @@ import { App } from './App';
 
 test('renders main link', () => {
   render(<App />);
-  const element = screen.getByText(/employees/i);
+  const element = screen.getByText(/масштабные решения/i);
   expect(element).toBeInTheDocument();
 });
