@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/mrsoft-test-task/static/css/main.cce540ce.chunk.css",
-    "main.js": "/mrsoft-test-task/static/js/main.4e5ebee9.chunk.js",
-    "main.js.map": "/mrsoft-test-task/static/js/main.4e5ebee9.chunk.js.map",
+    "main.css": "/mrsoft-test-task/static/css/main.f21331e5.chunk.css",
+    "main.js": "/mrsoft-test-task/static/js/main.405baf6b.chunk.js",
+    "main.js.map": "/mrsoft-test-task/static/js/main.405baf6b.chunk.js.map",
     "runtime-main.js": "/mrsoft-test-task/static/js/runtime-main.a64e7996.js",
     "runtime-main.js.map": "/mrsoft-test-task/static/js/runtime-main.a64e7996.js.map",
     "static/js/2.851959bb.chunk.js": "/mrsoft-test-task/static/js/2.851959bb.chunk.js",
     "static/js/2.851959bb.chunk.js.map": "/mrsoft-test-task/static/js/2.851959bb.chunk.js.map",
     "index.html": "/mrsoft-test-task/index.html",
-    "static/css/main.cce540ce.chunk.css.map": "/mrsoft-test-task/static/css/main.cce540ce.chunk.css.map",
+    "static/css/main.f21331e5.chunk.css.map": "/mrsoft-test-task/static/css/main.f21331e5.chunk.css.map",
     "static/js/2.851959bb.chunk.js.LICENSE.txt": "/mrsoft-test-task/static/js/2.851959bb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a64e7996.js",
     "static/js/2.851959bb.chunk.js",
-    "static/css/main.cce540ce.chunk.css",
-    "static/js/main.4e5ebee9.chunk.js"
+    "static/css/main.f21331e5.chunk.css",
+    "static/js/main.405baf6b.chunk.js"
   ]
 }
