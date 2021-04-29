@@ -23,7 +23,7 @@ export const Form: FC = () => {
   };
 
   const changeHandler = (event: ChangeEvent<HTMLInputElement>) => {
-    setError('');
+    if (error) setError('');
     setValue(event.currentTarget.value);
   };
 
